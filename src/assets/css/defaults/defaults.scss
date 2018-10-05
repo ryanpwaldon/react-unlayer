@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  user-select: none;
+  line-height: 1em;
+}
+
+html {
+  background: var(--color-white);
+}
+
+html,
+body,
+#root,
+.App,
+.App > div {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Circular Std';
+  color: var(--color-black);
+}
+
+a {
+  text-decoration: unset;
+  color: unset;
+}
